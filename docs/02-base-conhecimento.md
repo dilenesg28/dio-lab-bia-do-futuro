@@ -30,7 +30,7 @@ O produto Fundo Imobiliário (FII) substituiu o Fundo Multimercado, pois pessoal
 > Descreva como seu agente acessa a base de conhecimento.
 ```
 import pandas as pd
-importa json
+import json
 #CSVs
 historico = pd.read_csv('dat/historico_atendimento.csv')
 transacoes = pd.read_csv('data/transacoes.csv')
