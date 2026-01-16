@@ -36,9 +36,9 @@ historico = pd.read_csv('dat/historico_atendimento.csv')
 transacoes = pd.read_csv('data/transacoes.csv')
 #JSONs
 with open('data/perfil_investidor.json','r',encoding='utf-8') as f:
-  perfil = json.load(f)
+    perfil = json.load(f)
 with open('data/produtos_financeiros.json', 'r', encoding='utf-8') as f:
-  produtos = json.load(f) 
+    produtos = json.load(f) 
 ```
 
 
