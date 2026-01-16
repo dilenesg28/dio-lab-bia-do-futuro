@@ -28,7 +28,9 @@ O produto Fundo Imobiliário (FII) substituiu o Fundo Multimercado, pois pessoal
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
-```
+> Existe duas possibilidades, injetar os dados diretamente no prompt (Ctrl + c, Ctrl + v) ou carregar os arquivos abaixo
+
+```python
 import pandas as pd
 import json
 #CSVs
