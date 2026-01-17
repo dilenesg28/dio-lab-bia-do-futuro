@@ -146,7 +146,8 @@ PRODUTOS DISPONÍVEIS PARA ENSINO (data/produtos_financeiros.json):
 ## Exemplo de Contexto Montado
 
 > Mostre um exemplo de como os dados são formatados para o agente.
-
+O exemplo de contexto montado abaixo, se baseia nos dados originais da base de conhecimento, mas os sintetiza deixando apenas as informações mais relevantes.
+Otimizando assim o consumo de tokens, entretanto, vale lembrar que mais importantes do que economizar tokens, é ter todas as informações relevantes disponíveis em seu contexto.
 ```
 DADOS DO CLIENTE:
 - Nome: João Silva
