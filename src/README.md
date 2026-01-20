@@ -33,15 +33,23 @@ python-dotenv
 
 ## Código completo
 
-Todo o código-fonte está no arquivo ´app.py´.
+Todo o código-fonte está no arquivo `app.py`.
 
 
 ## Como Rodar
 
 ```bash
-# Instalar dependências
-pip install -r requirements.txt
+# 1. Instalar dependências
+pip install streamlit pandas requests
 
-# Rodar a aplicação
-streamlit run app.py
+# 2. Garantir que Ollama está rodando
+ollama serve
+
+# 3. Rodar o app
+streamlit run .\src\app.py
 ```
+## Evidências de execução
+realizar um print da execução do Ollama
+
+
+
